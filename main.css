@@ -3,19 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* .aydadiv{
+.aydadiv{
     width: 1140px; 
      margin: 0 auto; 
-} */
+}
 .trend{
     background-color: orangered;
     height: 60px;
 }
-ul, li{
+.ul, .li{
     display: flex;
     justify-content: flex-end;
     font-size: 12px;
     margin-top: 5px;
+    margin-right: 20px;
 }
 .trendyol{
     margin-top: 10px;
@@ -46,13 +47,23 @@ ul, li{
     width: 20px;
     height: 20px;
 }
-.ul1{
+.ul1, .li1, .li2, .li3{
     margin-left: 40px;
-    margin-top: 30px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
 }
-a{
+.a1, .a2, .a3{
     color: black;
     margin-left: 40px;
+}
+.ul2, .li4, .li5, .li6, .li7, .li8, .li9, .li10, .li11, .li12{
+    margin-left: 40px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
 }
 .ul2{
     margin-right: 50px;
@@ -72,11 +83,11 @@ hr{
 .aydadiv{
     width: 1300px;
     margin: 30px auto;
+    box-sizing: border-box;
 }
 .yuxu{
     display: flex;
     height: 116px;
-    background-color: antiquewhite;
     align-items: center;
     justify-content: space-between;
 }
@@ -112,14 +123,22 @@ hr{
 .ayda{
     width: 1300px;
     height: 120px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     margin-top: 13px;
     display: flex;
+    box-sizing: border-box;
+}
+.ul3, .li13, .li14{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
 }
 
 .li13{
+    width: 115px;
+    height: 120px;
     display: block;
-    margin-right: center;
+    padding: 0px 20px 0px 20px;
 }
 .blok4{
     display: block;
@@ -134,12 +153,1624 @@ hr{
     position: relative;
 }
 .bloks{
+    width: 72px;
+    height: 42px;
     position: absolute;
     padding-top: 10px;
     text-align: center;
     font-size: 14px;
     color: black;
     top: 70px;
-    left: 5px;
-    font-weight: 300;
+    font-weight: 600;
+    font-family: sans-serif;
 }
+
+.li14{
+    width: 115px;
+    height: 120px;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+.blok5{
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-color: transparent;
+    background-image: url("./En_Cok_Satanlar_202302142041.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    position: relative;
+}
+.bloka{
+    width: 72px;
+    height: 42px;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    top: 70px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.li15{
+    width: 115px;
+    height: 120px;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+.blok6{
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-color: transparent;
+    background-image: url("./Screenshot20221128At163430_202211290324.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    position: relative;
+}
+.blokk{
+    width: 72px;
+    height: 42px;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    top: 70px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.li16{
+    width: 115px;
+    height: 120px;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+.blok7{
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-color: transparent;
+    background-image: url("./Widget_202305051022.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    position: relative;
+}
+.bloksh{
+    width: 72px;
+    height: 42px;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    top: 70px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.li17{
+    width: 115px;
+    height: 120px;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+.blok8{
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-color: transparent;
+    background-image: url("./Adidas_202301262144.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    position: relative;
+}
+.adidas{
+    width: 72px;
+    height: 42px;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    top: 70px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.li18{
+    width: 115px;
+    height: 120px;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+.blok9{
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-color: transparent;
+    background-image: url("./Puma_202301271558.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    position: relative;
+}
+.Puma{
+    width: 72px;
+    height: 42px;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    top: 70px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.li19{
+    width: 115px;
+    height: 120px;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+.blok10{
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-color: transparent;
+    background-image: url("./Nike_202301271540.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    position: relative;
+}
+.Nike{
+    width: 72px;
+    height: 42px;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    top: 70px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.li20{
+    width: 115px;
+    height: 120px;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+.blok11{
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-color: transparent;
+    background-image: url("./Tommyhilfiger_202301280121.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    position: relative;
+}
+.Tommy{
+    width: 72px;
+    height: 42px;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    top: 70px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.li21{
+    width: 115px;
+    height: 120px;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+.blok12{
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-color: transparent;
+    background-image: url("./USPoloassn_202301280120.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    position: relative;
+}
+.Usp{
+    width: 72px;
+    height: 42px;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    top: 70px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.li22{
+    width: 115px;
+    height: 120px;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+.blok13{
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-color: transparent;
+    background-image: url("./Hummel_202301270232.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    position: relative;
+}
+.Humel{
+    width: 72px;
+    height: 42px;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    top: 70px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.li23{
+    width: 115px;
+    height: 120px;
+    display: block;
+    padding: 0px 20px 0px 20px;
+}
+.blok14{
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-color: transparent;
+    background-image: url("./Lumberjack_202301270443.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    position: relative;
+}
+.Lumber{
+    width: 72px;
+    height: 42px;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    top: 70px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.yuxum{
+    margin-top: 20px;
+    display: flex;
+    height: 77px;
+    /* background-color: antiquewhite; */
+    align-items: center;
+    justify-content: space-between;
+}
+.bl1{
+    width: 386px;
+    height: 57px;
+    background-color: antiquewhite;
+    background-image: url("./Sepet_202304181225.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 1px;
+}
+.bl2{
+    width: 386px;
+    height: 57px;
+    background-color: antiquewhite;
+    background-image: url("./Onecikan_202304181225.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 1px;
+} 
+.bl3{
+    width: 386px;
+    height: 57px;
+    background-color: antiquewhite;
+    background-image: url("./Flash_202304181225.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 1px;
+} 
+
+.migros{
+    margin-top: 20px;
+    width: 386px;
+    height: 187px;
+    background-color: antiquewhite;
+    background-image: url("./mobile_20230526140557_mmmm.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px 5px;
+    position: relative;
+} 
+.ms{
+    width: 386px;
+    height: 38px;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    top: 188px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.dunya{
+    width: 386px;
+    height: 187px;
+    background-color: antiquewhite;
+    background-image: url("./d52d6e00a5_0.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px 5px;
+    position: relative;
+    left: 460px;
+    bottom: 187px;
+} 
+.dd{
+    width: 386px;
+    height: 38px;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    top: 188px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-radius: 0px 0px 8px 8px;
+}
+.Avva{
+    width: 386px;
+    height: 187px;
+    background-color: antiquewhite;
+    background-image: url("./mobile_20230526104234_avvayenisezonbanner.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px 5px;
+    position: relative;
+    left: 920px;
+    bottom: 375px;
+} 
+.av{
+    width: 386px;
+    height: 38px;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    top: 188px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-radius: 0px 0px 8px 8px;
+}
+.esas{
+    width: 1200px;
+    height: 453px;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px 5px;
+    position: relative;
+    bottom: 300px;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.cok{
+    width: 185px;
+    height: 17px;
+    font-weight: 900;
+    font-size: 22px;
+}
+.tum{
+    color: black;
+    width: 80px;
+    height: 18px;
+    font-weight: 700;
+}
+.paltar{
+    width: 1158px;
+    height: 377px;
+    background-color: whitesmoke;
+    top: 65px;
+    position: absolute;
+}
+.mayka{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.may{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem{
+    width: 222px;
+    height: 219px;
+    background-image: url("./1_org.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+.goy{
+    width: 64px;
+    height: 64px;
+    background-image: url(./0844a065-ac36-4f45-a7b2-f51f4d3a14cb.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+}
+.on{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+
+.koynek{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 240px;
+    bottom: 1px;
+}
+.koy{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem1{
+    width: 222px;
+    height: 219px;
+    background-image: url("./1_org.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm1{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W1{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son1{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic1{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+.goy1{
+    width: 64px;
+    height: 64px;
+    background-image: url(./0844a065-ac36-4f45-a7b2-f51f4d3a14cb.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+}
+.on1{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no1{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+
+.koynek2{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 470px;
+    bottom: 1px;
+}
+.ko2{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem2{
+    width: 222px;
+    height: 219px;
+    background-image: url("./1_org.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm2{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W2{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son2{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic2{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+.goy2{
+    width: 64px;
+    height: 64px;
+    background-image: url(./0844a065-ac36-4f45-a7b2-f51f4d3a14cb.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+}
+.on2{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no2{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+
+.koynek{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 235px;
+    bottom: 1px;
+}
+.koy{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem1{
+    width: 222px;
+    height: 219px;
+    background-image: url("./1_org.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm1{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W1{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son1{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic1{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+.goy1{
+    width: 64px;
+    height: 64px;
+    background-image: url(./0844a065-ac36-4f45-a7b2-f51f4d3a14cb.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+}
+.on1{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no1{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+
+.koynek3{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 708px;
+    bottom: 1px;
+}
+.ko3{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem3{
+    width: 222px;
+    height: 219px;
+    background-image: url("./1_org.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm3{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W3{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son3{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic3{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+.goy3{
+    width: 64px;
+    height: 64px;
+    background-image: url(./0844a065-ac36-4f45-a7b2-f51f4d3a14cb.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+}
+.on3{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no3{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+.koynek4{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 940px;
+    bottom: 1px;
+}
+.ko4{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem4{
+    width: 222px;
+    height: 219px;
+    background-image: url("./1_org.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm4{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W4{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son4{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic4{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+.goy4{
+    width: 64px;
+    height: 64px;
+    background-image: url(./0844a065-ac36-4f45-a7b2-f51f4d3a14cb.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+}
+.on4{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no4{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+
+.paltar1{
+    width: 1158px;
+    height: 377px;
+    background-color: whitesmoke;
+    top: 465px;
+    position: absolute;
+}
+.mayka12{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.may2{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem12{
+    width: 222px;
+    height: 219px;
+    background-image: url("./1_org.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm12{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W12{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son12{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic12{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+.goy12{
+    width: 64px;
+    height: 64px;
+    background-image: url(./0844a065-ac36-4f45-a7b2-f51f4d3a14cb.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+}
+.on12{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no12{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+
+.koynek13{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 240px;
+    bottom: 1px;
+}
+.koy13{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem13{
+    width: 222px;
+    height: 219px;
+    background-image: url("./1_org.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm13{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W13{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son13{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic13{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+.goy13{
+    width: 64px;
+    height: 64px;
+    background-image: url(./0844a065-ac36-4f45-a7b2-f51f4d3a14cb.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+}
+.on13{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no13{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+
+.koynek23{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 470px;
+    bottom: 1px;
+}
+.ko23{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem23{
+    width: 222px;
+    height: 219px;
+    background-image: url("./1_org.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm23{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W23{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son23{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic23{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+.goy23{
+    width: 64px;
+    height: 64px;
+    background-image: url(./0844a065-ac36-4f45-a7b2-f51f4d3a14cb.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+}
+.on23{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no23{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+
+.koynek{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 235px;
+    bottom: 1px;
+}
+.koy{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem1{
+    width: 222px;
+    height: 219px;
+    background-image: url("./1_org.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm1{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W1{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son1{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic1{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+.goy1{
+    width: 64px;
+    height: 64px;
+    background-image: url(./0844a065-ac36-4f45-a7b2-f51f4d3a14cb.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+}
+.on1{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no1{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+
+.koynek3{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 708px;
+    bottom: 1px;
+}
+.ko3{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem3{
+    width: 222px;
+    height: 219px;
+    background-image: url("./1_org.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm3{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W3{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son3{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic3{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+.goy3{
+    width: 64px;
+    height: 64px;
+    background-image: url(./0844a065-ac36-4f45-a7b2-f51f4d3a14cb.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+}
+.on3{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no3{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+.koynek4{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 940px;
+    bottom: 1px;
+}
+.ko4{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem4{
+    width: 222px;
+    height: 219px;
+    background-image: url("./1_org.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm4{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W4{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son4{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic4{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+.goy4{
+    width: 64px;
+    height: 64px;
+    background-image: url(./0844a065-ac36-4f45-a7b2-f51f4d3a14cb.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+}
+.on4{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no4{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+
+.esas1{
+    width: 1200px;
+    height: 853px;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px 5px;
+    position: relative;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.cok1{
+    width: 185px;
+    height: 17px;
+    font-weight: 900;
+    font-size: 22px;
+}
+.tum1{
+    color: black;
+    width: 80px;
+    height: 18px;
+    font-weight: 700;
+}
+.paraqraf{
+    padding-left: 80px;
+    padding-right: 10px;
+    padding-top: 30px;
+    width: 1519px;
+    height: 900px;
+    box-sizing: border-box;
+    border: 1px solid #d4d4d4;
+    color: #333;
+
+}
+
+.link{
+    width: 1349px;
+    height: 495px;
+    background-color: white;
+    padding: 30px 0;
+    border-top: 1px solid #d4d4d4;
+}
+
+.iyunda{
+    width: 1080;
+    height: 434px;
+    display: flex;
+    margin-left: 100px;
+}
+.yaz{
+    width: 486px;
+    height: 434px;
+}
+.yay{
+    width: 486px;
+    height: 434px;
+}
+.populer{
+    width: 486px;
+    height: 59px;
+}
+.b1{
+    width: 256px;
+    height: 29px;
+    font-size: 22px;
+}
+.populer2{
+    width: 486px;
+    height: 59px;
+    margin-left: 170px;
+}
+.b2{
+    width: 486px;
+    height: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.b2>li {
+    width: 30%;
+}
+.b1>li{
+    width: 486px;
+    height: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.footer{
+    width: 1519px;
+    height: 452px;
+    background-color: black;
+    
+}
+.foot{
+    width: 256px;
+    height: 347px;
+}
+.n1{
+    width: 256px;
+    height: 181px;
+}
+.j1{
+    color: white;
+    font-size: 22px;
+}
+.z1{
+    width: 256px;
+    height: 127px;
+}
+.z1>li{
+    color: white;
+
+}
+.t1{
+    width: 256px;
+    height: 18px;
+}
+.x1{
+    color: white;
+    text-decoration: none;
+}
+.s1, .s2{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
