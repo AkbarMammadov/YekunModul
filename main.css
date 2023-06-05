@@ -123,7 +123,6 @@ hr{
 .ayda{
     width: 1300px;
     height: 120px;
-    /* background-color: antiquewhite; */
     margin-top: 13px;
     display: flex;
     box-sizing: border-box;
@@ -585,21 +584,6 @@ hr{
     font-weight: 600;
     font-family: sans-serif;
     border-radius: 0px 0px 8px 8px;
-}
-.esas{
-    width: 1200px;
-    height: 453px;
-    background-color: antiquewhite;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 5px 5px;
-    position: relative;
-    bottom: 300px;
-    left: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 15px;
-    padding-left: 30px;
 }
 .cok{
     width: 185px;
@@ -1599,6 +1583,7 @@ hr{
     background-size: contain;
     border-radius: 5px 5px;
     position: relative;
+    bottom: 200px;
     left: 50px;
     display: flex;
     justify-content: space-between;
@@ -1630,7 +1615,7 @@ hr{
 }
 
 .link{
-    width: 1349px;
+    width: 1519px;
     height: 495px;
     background-color: white;
     padding: 30px 0;
@@ -1654,6 +1639,7 @@ hr{
 .populer{
     width: 486px;
     height: 59px;
+    margin-left: 100px;
 }
 .b1{
     width: 256px;
@@ -1663,7 +1649,7 @@ hr{
 .populer2{
     width: 486px;
     height: 59px;
-    margin-left: 170px;
+    margin-left: 200px;
 }
 .b2{
     width: 486px;
@@ -1674,6 +1660,11 @@ hr{
 }
 .b2>li {
     width: 30%;
+    list-style-type: none;
+}
+.b2 a {
+    color: black;
+    text-decoration: none;
 }
 .b1>li{
     width: 486px;
@@ -1691,10 +1682,13 @@ hr{
 .foot{
     width: 256px;
     height: 347px;
+    display: flex;
 }
 .n1{
     width: 256px;
     height: 181px;
+    padding-left: 130px;
+    padding-top: 60px; 
 }
 .j1{
     color: white;
@@ -1706,7 +1700,7 @@ hr{
 }
 .z1>li{
     color: white;
-
+    margin-top: 20px;
 }
 .t1{
     width: 256px;
@@ -1716,30 +1710,366 @@ hr{
     color: white;
     text-decoration: none;
 }
-.s1, .s2{
+.s1, .s2, .s3, .s4{
     color: white;
     text-decoration: none;
 }
+.o1{
+    padding-top: 20px;
+    width: 256px;
+    height: 161px;
+}
+.gu{
+    margin-top: 20px;
+    color: white;
+    width: 256px;
+    height: 21px;
+    font-size: 16px;
+}
+.m1{
+    width: 155px;
+    height: 141px;
+}
+.gece{
+    width: 256px;
+    height: 100px;
+    display: flex;
+}
+.efe{
+    width: 56px;
+    height: 26px;
+    margin-top: 20px;
+    background-image: url(./troy-logo-transparent.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+.hedef{
+    width: 56px;
+    height: 26px;
+    margin-top: 20px;
+    margin-left: 70px;
+    background-image: url(./footer-master-card.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+.zirve{
+    width: 56px;
+    height: 26px;
+    margin-top: 20px;
+    margin-left: 130px;
+    background-image: url(./footer-visa-black.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+.intelekt{
+    width: 60px;
+    height: 26px;
+    margin-top: 20px;
+    margin-left: 170px;
+    background-image: url(./footer-amex.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+.n2{
+    width: 256px;
+    height: 181px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.j2{
+    color: white;
+    font-size: 22px;
+}
+.z2{
+    width: 256px;
+    height: 127px;
+}
+.z2>li{
+    color: white;
+    margin-top: 20px;
+}
+.t2{
+    width: 256px;
+    height: 18px;
+}
+.x2{
+    color: white;
+    text-decoration: none;
+}
+.s5, .s6, .s7, .s8{
+    color: white;
+    text-decoration: none;
+}
+.o2{
+    padding-top: 20px;
+    width: 256px;
+    height: 161px;
+}
+.gl{
+    margin-top: 22px;
+    color: white;
+    width: 256px;
+    height: 21px;
+    font-size: 16px;
+}
+.m2{
+    width: 155px;
+    height: 100px;
+}
+.orda{
+    width: 155px;
+    height: 141px;
+}
 
+.gunduz{
+    width: 155px;
+    height: 100px;
+    display: block
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pul{
+    margin-bottom: 100px;
+    width: 155px;
+    height: 100px;
+}
+.money{
+    width: 155px;
+    height: 100px;
+}
+.dolar{
+    margin-top: 20px;
+    width: 155px;
+    height: 40px;
+    background-image: url(./png-transparent-itunes-app-store-apple-logo-apple-text-rectangle-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 3px 3px 3px 3px;
+}
+.euro{
+        margin-top: 60px;
+        width: 155px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        border: 3px solid black;
+        background-image: url(./Google_Play_Store_badge_FR.svg.png);
+        border-radius: 3px;
+}
+.cent{
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    border: 3px solid black;
+    background-image: url(./download.png);
+    width: 155px;
+    height: 40px;
+    border-radius: 3px;
+}
+.n3{
+    width: 256px;
+    height: 181px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.j3{
+    color: white;
+    font-size: 22px;
+}
+.z3{
+    width: 256px;
+    height: 127px;
+}
+.z3>li{
+    color: white;
+    margin-top: 20px;
+}
+.t3{
+    width: 256px;
+    height: 18px;
+}
+.x3{
+    color: white;
+    text-decoration: none;
+}
+.s9, .s10, .s11, .s12{
+    color: white;
+    text-decoration: none;
+}
+.o3{
+    padding-top: 20px;
+    width: 256px;
+    height: 161px;
+}
+.g3{
+    margin-top: 22px;
+    color: white;
+    width: 256px;
+    height: 21px;
+    font-size: 16px;
+}
+.mm2{
+    width: 132px;
+    height: 100px;
+}
+.orda{
+    width: 132px;
+    height: 141px;
+}
+.geceqara{
+    width: 132px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.lal{
+    margin-top: 20px;
+    width: 30px;
+    height: 29px;
+    color: white;
+    background-image: url(./facebookV2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 3px solid black;
+    border-radius: 3px 3px 3px 3px;
+}
+.qepik{
+        margin-top: 20px;
+        width: 30px;
+        height: 29px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 3px solid black;
+        border-radius: 3px;
+        background-image: url(./instagramV2.svg);
+}
+.denen{
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 3px solid black;
+    background-image: url(./twitterV2.svg);
+    width: 30px;
+    height: 29px;
+    border-radius: 3px;
+}
+.youtube{
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 3px solid black;
+    background-image: url(./youtubeV2.svg);
+    width: 30px;
+    height: 29px;
+    border-radius: 3px;
+}
+.n4{
+    width: 173px;
+    height: 128px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.j4{
+    color: white;
+    font-size: 22px;
+}
+.z4{
+    width: 173px;
+    height: 145px;
+}
+.z4>li{
+    color: white;
+    margin-top: 20px;
+}
+.t4{
+    width: 173px;
+    height: 141px;
+}
+.x4{
+    color: white;
+    text-decoration: none;
+}
+.s13, .s14, .s15, .s16{
+    color: white;
+    text-decoration: none;
+}
+.oo4{
+    padding-top: 20px;
+    width: 173px;
+    height: 145px;
+}
+.gg4{
+    text-align: center;
+    margin-top: 2px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 110px;
+    height: 21px;
+    font-size: 16px;
+}
+.gg3{
+    text-decoration: none;
+    color: white;
+}
+.mmm2{
+    width: 132px;
+    height: 100px;
+}
+.baki{
+    width: 173px;
+    height: 145px;
+}
+.gunduzisiq{
+    width: 132px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.dinmez{
+    margin-top: 20px;
+    width: 103px;
+    height: 93px;
+    color: white;
+    background-image: url(./etbis-qr.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 3px solid black;
+    border-radius: 3px 3px 3px 3px;
+}
+.soylemez{
+        margin-top: 20px;
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 3px solid black;
+        background-image: url(./trust-stamp.webp);
+        border-radius: 3px;
+}
+.z1, a{
+    list-style-type: none;
+}
+.z2, a{
+    list-style-type: none;
+}
+.z3, a{
+    list-style-type: none;
+}
+.z4, a{
+    list-style-type: none;
+}
+.g, a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
 
 
 
