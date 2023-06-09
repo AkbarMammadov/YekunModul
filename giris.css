@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+.aydadiv{
+    width: 1140px; 
+     margin: 0 auto; 
+}
+.trend{
+    background-color: orangered;
+    height: 60px;
+}
+.ul, .li{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.trendyol{
+    margin-top: 10px;
+    margin-left: 70px;
+    font-weight: 500;
+    font-size: 40px;
+    position: absolute;
+}
+.divinput{
+    display: flex;
+}
+.input{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid aliceblue;
+    background-color: aliceblue;
+    font-size: 12px;
+}
+.axtar{
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    border: 2px solid aliceblue;
+    background-image: url(./download.svg);
+    left: 870px;
+    position: absolute;
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+}
+.ul1, .li1, .li2, .li3{
+    margin-left: 40px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+.a1, .a2, .a3{
+    color: black;
+    margin-left: 40px;
+}
+.ul2, .li4, .li5, .li6, .li7, .li8, .li9, .li10, .li11, .li12{
+    margin-left: 40px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+.ul2{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 400;
+    justify-content: space-evenly;
+}
+.li4, .li5, .li6, .li7, .li8, .li9, .li10, .li11, .li12{
+    font-weight: 700;
+}
+hr{
+    margin-top: 10px;
+    color: aliceblue;
+}
+.divler{
+    max-width: 100%;
+    min-height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.giris{
+    font-size: 12px;
+    width: 415px;
+    height: 69px; 
+}
+.girisyap{
+    width: 413px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 3px solid aliceblue;
+}
+.girish3{
+    width: 413px;
+    height: 48px;
+    color: orange;
+}
+.footer{
+    width: 1519px;
+    height: 452px;
+    background-color: black;
+    
+}
+.foot{
+    width: 256px;
+    height: 347px;
+    display: flex;
+}
+.n1{
+    width: 256px;
+    height: 181px;
+    padding-left: 130px;
+    padding-top: 60px; 
+}
+.j1{
+    color: white;
+    font-size: 22px;
+}
+.z1{
+    width: 256px;
+    height: 127px;
+}
+.z1>li{
+    color: white;
+    margin-top: 20px;
+}
+.t1{
+    width: 256px;
+    height: 18px;
+}
+.x1{
+    color: white;
+    text-decoration: none;
+}
+.s1, .s2, .s3, .s4{
+    color: white;
+    text-decoration: none;
+}
+.o1{
+    padding-top: 20px;
+    width: 256px;
+    height: 161px;
+}
+.gu{
+    margin-top: 20px;
+    color: white;
+    width: 256px;
+    height: 21px;
+    font-size: 16px;
+}
+.m1{
+    width: 155px;
+    height: 141px;
+}
+.gece{
+    width: 256px;
+    height: 100px;
+    display: flex;
+}
+.efe{
+    width: 56px;
+    height: 26px;
+    margin-top: 20px;
+    background-image: url(./troy-logo-transparent.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+.hedef{
+    width: 56px;
+    height: 26px;
+    margin-top: 20px;
+    margin-left: 70px;
+    background-image: url(./footer-master-card.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+.zirve{
+    width: 56px;
+    height: 26px;
+    margin-top: 20px;
+    margin-left: 130px;
+    background-image: url(./footer-visa-black.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+.intelekt{
+    width: 60px;
+    height: 26px;
+    margin-top: 20px;
+    margin-left: 170px;
+    background-image: url(./footer-amex.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+.n2{
+    width: 256px;
+    height: 181px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.j2{
+    color: white;
+    font-size: 22px;
+}
+.z2{
+    width: 256px;
+    height: 127px;
+}
+.z2>li{
+    color: white;
+    margin-top: 20px;
+}
+.t2{
+    width: 256px;
+    height: 18px;
+}
+.x2{
+    color: white;
+    text-decoration: none;
+}
+.s5, .s6, .s7, .s8{
+    color: white;
+    text-decoration: none;
+}
+.o2{
+    padding-top: 20px;
+    width: 256px;
+    height: 161px;
+}
+.gl{
+    margin-top: 22px;
+    color: white;
+    width: 256px;
+    height: 21px;
+    font-size: 16px;
+}
+.m2{
+    width: 155px;
+    height: 100px;
+}
+.orda{
+    width: 155px;
+    height: 141px;
+}
+
+.gunduz{
+    width: 155px;
+    height: 100px;
+    display: block
+}
+
+.pul{
+    margin-bottom: 100px;
+    width: 155px;
+    height: 100px;
+}
+.money{
+    width: 155px;
+    height: 100px;
+}
+.dolar{
+    margin-top: 20px;
+    width: 155px;
+    height: 40px;
+    background-image: url(./png-transparent-itunes-app-store-apple-logo-apple-text-rectangle-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 3px 3px 3px 3px;
+}
+.euro{
+        margin-top: 60px;
+        width: 155px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        border: 3px solid black;
+        background-image: url(./Google_Play_Store_badge_FR.svg.png);
+        border-radius: 3px;
+}
+.cent{
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    border: 3px solid black;
+    background-image: url(./download.png);
+    width: 155px;
+    height: 40px;
+    border-radius: 3px;
+}
+.n3{
+    width: 256px;
+    height: 181px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.j3{
+    color: white;
+    font-size: 22px;
+}
+.z3{
+    width: 256px;
+    height: 127px;
+}
+.z3>li{
+    color: white;
+    margin-top: 20px;
+}
+.t3{
+    width: 256px;
+    height: 18px;
+}
+.x3{
+    color: white;
+    text-decoration: none;
+}
+.s9, .s10, .s11, .s12{
+    color: white;
+    text-decoration: none;
+}
+.o3{
+    padding-top: 20px;
+    width: 256px;
+    height: 161px;
+}
+.g3{
+    margin-top: 22px;
+    color: white;
+    width: 256px;
+    height: 21px;
+    font-size: 16px;
+}
+.mm2{
+    width: 132px;
+    height: 100px;
+}
+.orda{
+    width: 132px;
+    height: 141px;
+}
+.geceqara{
+    width: 132px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.lal{
+    margin-top: 20px;
+    width: 30px;
+    height: 29px;
+    color: white;
+    background-image: url(./facebookV2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 3px solid black;
+    border-radius: 3px 3px 3px 3px;
+}
+.qepik{
+        margin-top: 20px;
+        width: 30px;
+        height: 29px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 3px solid black;
+        border-radius: 3px;
+        background-image: url(./instagramV2.svg);
+}
+.denen{
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 3px solid black;
+    background-image: url(./twitterV2.svg);
+    width: 30px;
+    height: 29px;
+    border-radius: 3px;
+}
+.youtube{
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 3px solid black;
+    background-image: url(./youtubeV2.svg);
+    width: 30px;
+    height: 29px;
+    border-radius: 3px;
+}
+.n4{
+    width: 173px;
+    height: 128px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.j4{
+    color: white;
+    font-size: 22px;
+}
+.z4{
+    width: 173px;
+    height: 145px;
+}
+.z4>li{
+    color: white;
+    margin-top: 20px;
+}
+.t4{
+    width: 173px;
+    height: 141px;
+}
+.x4{
+    color: white;
+    text-decoration: none;
+}
+.s13, .s14, .s15, .s16{
+    color: white;
+    text-decoration: none;
+}
+.oo4{
+    padding-top: 20px;
+    width: 173px;
+    height: 145px;
+}
+.gg4{
+    text-align: center;
+    margin-top: 2px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 110px;
+    height: 21px;
+    font-size: 16px;
+}
+.gg3{
+    text-decoration: none;
+    color: white;
+}
+.mmm2{
+    width: 132px;
+    height: 100px;
+}
+.baki{
+    width: 173px;
+    height: 145px;
+}
+.gunduzisiq{
+    width: 132px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.dinmez{
+    margin-top: 20px;
+    width: 103px;
+    height: 93px;
+    color: white;
+    background-image: url(./etbis-qr.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 3px solid black;
+    border-radius: 3px 3px 3px 3px;
+}
+.soylemez{
+        margin-top: 20px;
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 3px solid black;
+        background-image: url(./trust-stamp.webp);
+        border-radius: 3px;
+}

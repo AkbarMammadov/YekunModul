@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 .aydadiv{
     width: 1140px; 
@@ -40,7 +43,11 @@
     font-size: 12px;
 }
 .axtar{
-
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    border: 2px solid aliceblue;
+    background-image: url(./download.svg);
     left: 870px;
     position: absolute;
     margin-top: 30px;
@@ -475,7 +482,6 @@ hr{
     margin-top: 20px;
     display: flex;
     height: 77px;
-    /* background-color: antiquewhite; */
     align-items: center;
     justify-content: space-between;
 }
@@ -700,10 +706,10 @@ hr{
 .imagem1{
     width: 222px;
     height: 219px;
-    background-image: url("./1_org.webp");
+    background-image: url("./2_org.webp");
     background-repeat: no-repeat;
     background-size: contain;
-    position: relative;
+    /* position: relative; */
 }
 .metnm1{
     width: 222px;
@@ -862,7 +868,7 @@ hr{
 .imagem1{
     width: 222px;
     height: 219px;
-    background-image: url("./1_org.webp");
+    background-image: url("./adim1.webp");
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -1023,7 +1029,7 @@ hr{
 .imagem4{
     width: 222px;
     height: 219px;
-    background-image: url("./1_org.webp");
+    background-image: url("./adim4.webp");
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -1189,7 +1195,7 @@ hr{
 .imagem13{
     width: 222px;
     height: 219px;
-    background-image: url("./1_org.webp");
+    background-image: url("./2_org.webp");
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -1432,7 +1438,7 @@ hr{
 .imagem3{
     width: 222px;
     height: 219px;
-    background-image: url("./1_org.webp");
+    background-image: url("./");
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
