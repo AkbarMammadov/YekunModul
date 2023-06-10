@@ -86,106 +86,441 @@ hr{
     margin-top: 10px;
     color: aliceblue;
 }
-.divler{
-    max-width: 100%;
-    min-height: 300px;
-    background-color: white;
+.favorim{
+    width: 1349px;
+    height: 320px;
     display: flex;
     justify-content: center;
-    text-align: center;
 }
-.giris{
-    font-size: 12px;
-    width: 415px;
-    height: 500px; 
-}
-.girisyap{
-    width: 413px;
-    height: 48px;
-    box-sizing: border-box;
-    border: 3px solid aliceblue;
-}
-.girish3{
-    width: 413px;
-    height: 48px;
-    font-size: 22px;
-    color: orange;
-}
-.hisse{
-    width: 413px;
-    height: 300px;
-    box-sizing: border-box;
-    border: 4px solid aliceblue;
-    padding: 35px 40px 40px;
-    background-color: #fff;
+.alisveris{
+    width: 1200px;
+    height: 96px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #e2e2e2;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    margin-top: 20px;
 }
-.inputlar{
-    width: 333px;
-    height: 257px;
-    display: block;
-    text-align: left;
+.i{
+    width: 64px;
+    height: 64px;
+    background-color: antiquewhite;
+    border: 2px solid antiquewhite;
+    border-radius: 50px;
+    padding-left: 5px;
 }
-.input1{
-    width: 33px;
-    height: 18px;
-    font-size: 14px;
+.span3{
+    font-size: 18px;
     font-weight: 600;
-    color: #333;
-    line-height: 18px;
 }
-.eposta{
-    width: 333px;
-    height: 42px;
-
+.sebet{
+    width: 350px;
+    height: 64px;
+    display: flex;
+    align-items: center;
 }
-.input2{
-    width: 33px;
-    height: 18px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #333;
-    line-height: 18px;
+.alisbasla{
+    width: 250px;
+    height: 64px;
 }
-.sifre{
-    width: 333px;
-    height: 42px;
-}
-.sifreunut{
-    width: 333px;
-    height: 18px;
-    font-size: 14px;
-    text-align: end;
-    margin-top: 15px;
-}
-.sifreun{
-    color: black;
-}
-.sdf{
-    color: black;
-}
-.girisim{
-    width: 333px;
-    height: 44px;
+.alis{
+    width: 250px;
+    height: 64px;
     background-color: orangered;
-    text-align: center;
-    border: 2px solid orangered;
-    border-radius: 3px;
-    margin-top: 15px;
+    border: 3px solid orangered;
+    border-radius: 8px;
 }
-.span2{
-    width: 68px;
-    height: 21px;
+.basla{
+    width: 250px;
+    height: 48px;
     color: white;
     font-size: 21px;
+    text-decoration: none;
+}
+.esas1{
+    width: 1200px;
+    height: 453px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px 5px;
+    position: relative;
+    bottom: 200px;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.cok1{
+    width: 185px;
+    height: 17px;
+    font-weight: 900;
+    font-size: 22px;
+}
+.tum1{
+    color: black;
+    width: 80px;
+    height: 18px;
+    font-weight: 700;
+}
+.paltar1{
+    width: 1158px;
+    height: 377px;
+    top: 50px;
+    position: absolute;
+}
+.mayka12{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.may2{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem12{
+    width: 222px;
+    height: 219px;
+    background-image: url("./peeling.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm12{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W12{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son12{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic12{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+
+.on12{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no12{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+
+.koynek13{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 910px;
+    bottom: 1px;
+}
+.koy13{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem13{
+    width: 222px;
+    height: 219px;
+    background-image: url("./cildiniz.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm13{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W13{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son13{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic13{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+.on13{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no13{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+
+.koynek23{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 620px;
+    bottom: 1px;
+}
+.ko23{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem23{
+    width: 222px;
+    height: 219px;
+    background-image: url("./biton.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm23{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W23{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son23{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic23{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+.on23{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no23{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+
+.koynek4{
+    width: 224px;
+    height: 375px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    left: 335px;
+    bottom: 1px;
+}
+.koy4{
+    width: 224px;
+    height: 375px;
+
+}
+.imagem4{
+    width: 222px;
+    height: 219px;
+    background-image: url("./1_org.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.metnm4{
+    width: 222px;
+    height: 155px;
+    position: relative;
+}
+.W4{
+    width: 197px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+}
+.son4{
+    width: 179px;
+    height: 17px;
+    top: 50px;
+    left: 10px;
+    color: red;
+    position: absolute;
+}
+.ic4{
+    width: 53px;
+    height: 53px;
+    background-image: url(./EnCokSatan_202012091129.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+}
+.on4{
+    width: 202px;
+    height: 32px;
+    top: 100px;
+    left: 10px;
+    position: absolute;
+}
+.no4{
+    width: 56;
+    height: 20px;
+    color: orange;
+    top: 100px;
+    left: 10px;
+    font-weight: 600;
+}
+.a1, .a2, .a3{
+    color: black;
     text-decoration: none;
 }
 ul>li{
     list-style-type: none;
 }
-.a1, .a2, .a3{
+
+
+
+
+
+
+
+
+
+.link{
+    width: 1519px;
+    height: 495px;
+    background-color: white;
+    padding: 30px 0;
+    border-top: 1px solid #d4d4d4;
+}
+.iyunda{
+    width: 1080;
+    height: 434px;
+    display: flex;
+    margin-left: 100px;
+}
+.yaz{
+    width: 486px;
+    height: 434px;
+}
+.yay{
+    width: 486px;
+    height: 434px;
+}
+.populer{
+    width: 486px;
+    height: 59px;
+    margin-left: 100px;
+}
+.b1{
+    width: 256px;
+    height: 29px;
+    font-size: 22px;
+}
+.populer2{
+    width: 486px;
+    height: 59px;
+    margin-left: 200px;
+}
+.b2{
+    width: 486px;
+    height: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.b2>li {
+    width: 30%;
+    list-style-type: none;
+}
+.b2 a {
+    color: black;
     text-decoration: none;
+}
+.b1>li{
+    width: 486px;
+    height: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
 }
 .footer{
     width: 1519px;
